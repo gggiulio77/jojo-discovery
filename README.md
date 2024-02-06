@@ -1,6 +1,6 @@
 # jojo-discovery
 
-True to its name, this repository encompasses the discovery functionality of [jojo](https://github.com/gggiulio77/jojo). It operates on the host computer, alongside [jojo-server](https://github.com/gggiulio77/jojo-server). Its primary function is to listen for "hello" messages from [jojo-client](https://github.com/gggiulio77/jojo-client) and respond with the local address of the host. While it can function independently, the primary intention is to run it alongside the [jojo-app](https://github.com/gggiulio77/jojo-app) as a separate process.
+True to its name, this repository encompasses the discovery functionality of [jojo](https://github.com/gggiulio77/jojo) project. It operates on the host computer, alongside [jojo-server](https://github.com/gggiulio77/jojo-server). Its primary function is to listen for "hello" messages from [jojo-client](https://github.com/gggiulio77/jojo-client) and respond with the local address of the host. While it can function independently, the primary intention is to run it alongside the [jojo-app](https://github.com/gggiulio77/jojo-app) as a separate process.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ Essentially, it initiates a UDP socket on the host computer and listens for a br
 
 ### Prerequisites
 
-Before proceeding, ensure you have Rust installed on your system.
+Before proceeding, ensure you have [Rust](https://www.rust-lang.org/tools/install) installed on your system.
 
 ### Installation
 
